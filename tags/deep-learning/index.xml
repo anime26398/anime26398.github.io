@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Aarush Gupta</title>
+    <link>https://anime26398.github.io/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Aarush Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://anime26398.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Large-Scale Mitochondria Segmentation</title>
+      <link>https://anime26398.github.io/project/mito/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime26398.github.io/project/mito/</guid>
+      <description>Segmentation pipeline for automatically labelling mitochondria in EM images of human brain.</description>
+    </item>
+    
+    <item>
+      <title>Radiograph Report Generation using Deep Learning</title>
+      <link>https://anime26398.github.io/project/report_xray/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime26398.github.io/project/report_xray/</guid>
+      <description>Developing a Deep Learning model to generate reports of X-Rays as a part of my Bachelor Thesis Project</description>
+    </item>
+    
+  </channel>
+</rss>

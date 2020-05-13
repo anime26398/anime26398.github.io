@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on Aarush Gupta</title>
+    <link>https://anime26398.github.io/authors/admin/</link>
+    <description>Recent content in admin on Aarush Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://anime26398.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://anime26398.github.io/author/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime26398.github.io/author/admin/</guid>
+      <description>I am a final year CS undergraduate at the Indian Institute of Technology Roorkee. I am broadly in Deep Learning, with applications in Computer Vision and Natural Language Processing. At IIT Roorkee, I co-lead a Deep Learning-centric discussion group named the Vision and Language Group.
+Since May 2019, I have been working with the Visual Computing Group at Harvard University on Large-Scale Mitochondria Segmentation, as a part of the Connectomics Project.</description>
+    </item>
+    
+  </channel>
+</rss>

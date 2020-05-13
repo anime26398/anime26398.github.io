@@ -1,16 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Academic</title>
+    <title>Authors on Aarush Gupta</title>
     <link>https://anime26398.github.io/authors/</link>
-      <atom:link href="https://anime26398.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
-    <image>
-      <url>https://anime26398.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Authors</title>
-      <link>https://anime26398.github.io/authors/</link>
-    </image>
+    <description>Recent content in Authors on Aarush Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://anime26398.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>**Aarush Gupta&amp;ast;**</title>
+      <link>https://anime26398.github.io/authors/aarush-guptaast/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://anime26398.github.io/authors/aarush-guptaast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dakshit Agrawal&amp;ast;</title>
+      <link>https://anime26398.github.io/authors/dakshit-agrawalast/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://anime26398.github.io/authors/dakshit-agrawalast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardik Chauhan</title>
+      <link>https://anime26398.github.io/authors/hardik-chauhan/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://anime26398.github.io/authors/hardik-chauhan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jose Dolz</title>
+      <link>https://anime26398.github.io/authors/jose-dolz/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://anime26398.github.io/authors/jose-dolz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marco Pedersoli</title>
+      <link>https://anime26398.github.io/authors/marco-pedersoli/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://anime26398.github.io/authors/marco-pedersoli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>https://anime26398.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime26398.github.io/authors/admin/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
