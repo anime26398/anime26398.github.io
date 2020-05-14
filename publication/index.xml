@@ -6,17 +6,26 @@
     <description>Recent content in Publications on Aniruddha Mahapatra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 19 Oct 2019 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="https://anime26398.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>An Attention Model for Group Level Emotion Recognition</title>
-      <link>https://anime26398.github.io/publication/att/</link>
-      <pubDate>Thu, 02 Aug 2018 00:00:00 +0530</pubDate>
+      <title>Unsupervised Domain Adaptation for Remote Sensing Images Using Metric Learning and Correlation Alignment</title>
+      <link>https://anime26398.github.io/publication/ncvpripg19/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0530</pubDate>
       
-      <guid>https://anime26398.github.io/publication/att/</guid>
+      <guid>https://anime26398.github.io/publication/ncvpripg19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessment of Sentinel-1 and Sentinel-2 Satellite Imagery for Crop Classification in Indian Region During Kharif and Rabi Crop Cycles</title>
+      <link>https://anime26398.github.io/publication/igarss19/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0530</pubDate>
+      
+      <guid>https://anime26398.github.io/publication/igarss19/</guid>
       <description></description>
     </item>
     
