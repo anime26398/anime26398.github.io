@@ -105,6 +105,60 @@
           </tr>
       </table>
 
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+        <td style="padding:20px;width:100%;vertical-align:middle">
+          <heading>Software</heading>
+          <!-- <p>
+            My current research at CMU and Argo AI is focused on discovering novel objects in an open-world setting. 
+          </p> -->
+        </td>
+      </tr>
+    </tbody></table>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      
+      <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='ddp_image'>
+            <video autoplay loop muted playsinline width="200" style="border-radius:0px; border: 1px solid #000; margin-top: 15px;">
+              <source src="./images/moving_elements.mp4" type="video/mp4">
+            </video>
+            </div>
+            <video autoplay loop muted playsinline width="200" style="border-radius:0px; border: 1px solid #000; margin-top: 15px;">
+              <source src="./images/moving_elements.mp4" type="video/mp4">
+            </video>
+        </div>
+        <script type="text/javascript">
+          function ddp_start() {
+            document.getElementById('ddp_image').style.opacity = "1";
+          }
+  
+          function ddp_stop() {
+            document.getElementById('ddp_image').style.opacity = "0";
+          }
+          ddp_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <a href="https://helpx.adobe.com/photoshop-elements/using/moving-elements.html">
+          <papertitle>Moving Elements</papertitle>
+        </a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=W-9D_-ilS1Y">video</a> |
+        <a href="https://helpx.adobe.com/photoshop-elements/using/moving-elements.html">website</a>
+        
+        <p></p>
+        <p>
+          Adobe's Photoshop Elements 2023 new feature "Moving Elements" lets users generate asthetic cinemagraphs from a single input image and arrow directions to specify the direction of motion.
+          <br>
+          This feature was based on our <a href="https://controllable-cinemagraphs.github.io/">Controllable Animation of Fluid Elements in Still Images</a> (CVPR 2022) work.
+      </p>
+    </td>
+  </tr>
+
+    </tbody></table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -458,7 +512,7 @@
           <ul>
             <br>
             <!-- <br> -->
-            <li> <strong>[Jul/2023]</strong> Paper <a href="https://text2cinemagraph.github.io/website/">Text-Guided Synthesis of Eulerian Cinemagraphs”</a> accepted at <a href="https://asia.siggraph.org/2023/">SIGGRAPH Asia 2023</a> <b>(TOG)</b>!</li>
+            <li> <strong>[Jul/2023]</strong> Paper <a href="https://text2cinemagraph.github.io/website/">"Text-Guided Synthesis of Eulerian Cinemagraphs”</a> accepted at <a href="https://asia.siggraph.org/2023/">SIGGRAPH Asia 2023</a> <b>(TOG)</b>!</li>
             <li> <strong>[May/2023]</strong> Started Research Internship at <a href="https://research.snap.com/">Snap Research</a></li>
             <li> <strong>[Oct/2022]</strong> Paper <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Agarwal_GEMS_Scene_Expansion_Using_Generative_Models_of_Graphs_WACV_2023_paper.pdf">“GEMS: Scene Expansion using Generative
               Models of Graphs”</a> accepted at <a href="https://wacv2023.thecvf.com/">WACV 2023</a>!</li>
