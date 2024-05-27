@@ -8,6 +8,7 @@
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/avatar-modified.png">
+
 </head>
 
 <body>
@@ -22,11 +23,9 @@
                 <name>Aniruddha Mahapatra</name>
               </p>
               <p>
-                I am a sophomore year <a href="https://ri.cmu.edu/education/academic-programs/master-of-science-computer-vision">Masters in Computer Vision</a> (MSCV)
-                student at <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a>. I am advised by Prof. <a href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a>.
-                My research interest include computer vision and deep learning, specifically, image and video synthesis and editing using generative models. My goal is to create automated 
-                AI algorithms for generating (or editing) photorealistic images and videos which are very time-consuming, or 
-                otherwise impossible to do manually by existing tools.
+                I am a Research Engineer at <a href="https://research.adobe.com/">Adobe Research</a>. I completed my <a href="https://ri.cmu.edu/education/academic-programs/master-of-science-computer-vision">Masters in Computer Vision</a> (MSCV)
+                from <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a>, where I was advised by Prof. <a href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a>.
+                My research interest include image and video synthesis and editing using generative models.
                 <br>
                 <br>
                 I am fortunate to have worked with <a href="https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/">Aliaksandr Siarohin</a>, <a href="http://hsinyinglee.com/">Hsin-Ying Lee</a>
@@ -63,6 +62,11 @@
               <img src="images/snap_logo.png" alt="sym" width="60%"></a>
               <p style="line-height:1.3; font-size:12pt">Snap Inc.<br>Research Intern<br>May. 21 - Aug. 21</p>
               </th> -->
+
+              <td width="13.8%" valign="top" align="center">
+                <img src="images/adobe.jpeg" alt="sym" width="110%"></a>
+                <p style="line-height:1.3;"><a href="https://research.adobe.com/">Adobe Research</a><br>Research Engineer<br>Feb. 24 - Present</p>
+                </td>
       
               <td width="13.8%" valign="top" align="center">
               <img src="images/cmu.png" alt="sym" width="90%"></a>
@@ -73,23 +77,23 @@
               <td width="13.8%" valign="top" align="center">
               <img src="images/snap_logo.png" alt="sym" width="57%"></a>
               <!-- <p style="line-height:1.3; font-size:12pt">CMU<br>M.S. in Computer Vision<br>Jan. 21 - June. 22</p> -->
-              <p style="line-height:1.3;"><a href="https://www.cs.cmu.edu/">Snap</a><br>Research Intern<br>May. 23 - Aug. 23</p>
+              <p style="line-height:1.3;"><a href="https://www.cs.cmu.edu/">Snap Research</a><br>Research Intern<br>May. 23 - Aug. 23</p>
               </td>
       
               <td width="13.8%" valign="top" align="center">
               <img src="images/adobe.jpeg" alt="sym" width="110%"></a>
-              <p style="line-height:1.3;"><a href="https://research.adobe.com/">Adobe</a><br>Research Associate<br>Aug. 20 - Present</p>
+              <p style="line-height:1.3;"><a href="https://research.adobe.com/">Adobe Research</a><br>Research Associate<br>Aug. 20 - Aug. 22</p>
               </td>
       
               <td width="13.8%" valign="top" align="center">
               <img src="images/adobe.jpeg" alt="sym" width="110%"></a>
-              <p style="line-height:1.3;"><a href="https://research.adobe.com/">Adobe</a><br>Research Intern<br>May. 19 - Jul. 19</p>
+              <p style="line-height:1.3;"><a href="https://research.adobe.com/">Adobe Research</a><br>Research Intern<br>May. 19 - Jul. 19</p>
               </td>
       
-              <td width="13.8%" valign="top" align="center">
+              <!-- <td width="13.8%" valign="top" align="center">
               <img src="images/ibm.svg" alt="sym" width="60%"></a>
               <p style="line-height:1.3;"><a href="https://www.ibm.com/in-en">IBM</a><br>Remote Research Intern<br>Jun. 18 - Dec. 18</p>
-              </td>
+              </td> -->
       
               <!-- <th width="16.6%" valign="top" align="center">
               <img src="images/relajet.png" alt="sym" width="60%"></a>
@@ -170,6 +174,59 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ddp_image'>
+                  <video autoplay loop muted playsinline width="200" style="border-radius:0px; border: 1px solid #000; margin-top: 0px;">
+                    <source src="./images/content-debiased-fvd.mp4" type="video/mp4">
+                  </video>
+                  </div>
+                  <video autoplay loop muted playsinline width="200" style="border-radius:0px; border: 1px solid #000; margin-top: 0px;">
+                    <source src="./images/content-debiased-fvd.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <script type="text/javascript">
+                function ddp_start() {
+                  document.getElementById('ddp_image').style.opacity = "1";
+                }
+        
+                function ddp_stop() {
+                  document.getElementById('ddp_image').style.opacity = "0";
+                }
+                ddp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://content-debiased-fvd.github.io/">
+                <papertitle>On the Content Bias in Fréchet Video Distance</papertitle>
+              </a>
+              <br>
+              <a href="https://songweige.github.io/">Songwei Ge</a>, 
+              <strong>Aniruddha Mahapatra</strong>,
+              <a href="https://gauravparmar.com/">Gaurav Parmar</a>, 
+              <a href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a>
+              <a href="https://jbhuang0604.github.io/">Jia-Bin Huang</a>
+              <br>
+              <em>CVPR</em>, 2024
+              <br>
+              <a href="https://content-debiased-fvd.github.io/">webpage</a> |
+              <a href="https://arxiv.org/pdf/2404.12391">paper</a> |
+              <a href="https://arxiv.org/abs/2404.12391">arXiv</a> |
+              <a href="https://github.com/songweige/content-debiased-fvd">code</a> |
+              <a href="data/cfvd.txt">bibTeX</a>
+              
+              <p></p>
+              <p>
+                We analyse the problems associated with the commonly used I3D features for computing FVD metric that is used to evaluate quality of generated videos.
+                We develop code and provide pre-computed features for computing FVD with different feature extractors. The toolkit is available at <a href="https://content-debiased-fvd.github.io/documentation/">Github repo</a>. 
+                <br>
+                <br>
+                <code>pip install cd-fvd</code>
+            </p>
+          </td>
+        </tr>
           
           <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
           <td style="padding:20px;width:30%;vertical-align:middle">
@@ -270,8 +327,7 @@
           </p>
         </td>
       </tr>
-
-
+          
           <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
             <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
@@ -512,6 +568,8 @@
           <ul>
             <br>
             <!-- <br> -->
+            <li> <strong>[Feb/2024]</strong> Joined <a href="https://research.adobe.com/">Adobe Research</a>, San Jose as Research Engineer!</li>
+            <li> <strong>[Dec/2023]</strong> Completed <a href="https://ri.cmu.edu/education/academic-programs/master-of-science-computer-vision">Masters in Computer Vision</a> (MSCV) program at <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a> (CMU)!</li>
             <li> <strong>[Jul/2023]</strong> Paper <a href="https://text2cinemagraph.github.io/website/">"Text-Guided Synthesis of Eulerian Cinemagraphs”</a> accepted at <a href="https://asia.siggraph.org/2023/">SIGGRAPH Asia 2023</a> <b>(TOG)</b>!</li>
             <li> <strong>[May/2023]</strong> Started Research Internship at <a href="https://research.snap.com/">Snap Research</a></li>
             <li> <strong>[Oct/2022]</strong> Paper <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Agarwal_GEMS_Scene_Expansion_Using_Generative_Models_of_Graphs_WACV_2023_paper.pdf">“GEMS: Scene Expansion using Generative
