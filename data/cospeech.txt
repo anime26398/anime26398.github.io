@@ -1,0 +1,4 @@
+@article{mahapatraco,
+  title={Co-speech Gesture Video Generation with 3D Human Meshes},
+  author={Mahapatra, Aniruddha and Mishra, Richa and Li, Renda and Chen, Ziyi and Ding, Boyang and Wang, Shoulei and Zhu, Jun-Yan and Chang, Peng and Han, Mei and Xiao, Jing}
+}

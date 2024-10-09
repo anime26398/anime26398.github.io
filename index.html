@@ -174,6 +174,59 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ddp_image'>
+                  <video autoplay loop muted playsinline width="200" style="border-radius:0px; border: 1px solid #000; margin-top: 25px;">
+                    <source src="./images/co-speech-cropped.mp4" type="video/mp4">
+                  </video>
+                  </div>
+                  <video autoplay loop muted playsinline width="200" style="border-radius:0px; border: 1px solid #000; margin-top: 25px;">
+                    <source src="./images/co-speech-cropped.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <script type="text/javascript">
+                function ddp_start() {
+                  document.getElementById('ddp_image').style.opacity = "1";
+                }
+        
+                function ddp_stop() {
+                  document.getElementById('ddp_image').style.opacity = "0";
+                }
+                ddp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://cospeech-gesture-3d.github.io/website/index.html">
+                <papertitle>Co-speech Gesture Video Generation with 3D Human Meshes</papertitle>
+              </a>
+              <br>
+              <strong>Aniruddha Mahapatra*</strong>,
+              <a href="">Richa Mishra*</a>, 
+              <a href="">Renda Li</a>, 
+              <a href="">Ziyi Chen</a>
+              <a href="">Boyang Ding</a>
+              <a href="">Shoulei Wang</a>
+              <a href="">Jun-Yan Zhu</a>
+              <a href="">Peng Chang</a>
+              <a href="">Mei Han</a>
+              <a href="">Jing Xiao</a>
+              <br>
+              <em>ECCV</em>, 2024
+              <br>
+              <a href="https://cospeech-gesture-3d.github.io/website/index.html">webpage</a> |
+              <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/12483.pdf">paper</a> |
+              <a href="data/cospeech.txt">bibTeX</a>
+              
+              <p></p>
+              <p>
+              Existing hand gesture video generation methods are primarily limited by the widely adopted 2D skeleton-based gesture representation and still struggle to generate realistic hands.
+              We introduce a co-speech video generation framework to synthesize human speech videos leveraging human mesh-based representations. 
+            </p>
+          </td>
+        </tr>
 
           <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
             <td style="padding:20px;width:30%;vertical-align:middle">
