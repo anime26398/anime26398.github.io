@@ -122,44 +122,123 @@
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       
       <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
-      <td style="padding:20px;width:30%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='ddp_image'>
-            <video autoplay loop muted playsinline width="200" style="border-radius:0px; border: 1px solid #000; margin-top: 15px;">
-              <source src="./images/moving_elements.mp4" type="video/mp4">
-            </video>
-            </div>
-            <video autoplay loop muted playsinline width="200" style="border-radius:0px; border: 1px solid #000; margin-top: 15px;">
-              <source src="./images/moving_elements.mp4" type="video/mp4">
-            </video>
-        </div>
-        <script type="text/javascript">
-          function ddp_start() {
-            document.getElementById('ddp_image').style.opacity = "1";
-          }
-  
-          function ddp_stop() {
-            document.getElementById('ddp_image').style.opacity = "0";
-          }
-          ddp_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:70%;vertical-align:middle">
-        <a href="https://helpx.adobe.com/photoshop-elements/using/moving-elements.html">
-          <papertitle>Moving Elements</papertitle>
-        </a>
-        <br>
-        <a href="https://www.youtube.com/watch?v=W-9D_-ilS1Y">video</a> |
-        <a href="https://helpx.adobe.com/photoshop-elements/using/moving-elements.html">website</a>
-        
-        <p></p>
-        <p>
-          Adobe's Photoshop Elements 2023 new feature "Moving Elements" lets users generate aesthetic cinemagraphs from their photos.
+        <!-- CHANGED: Reduced padding from 20px to 10px -->
+        <td style="padding-left:10px; width:30%; vertical-align:middle;">
+          <div class="one">
+            <img src='images/firefly-video1.png' width="200" style="margin-top: 15px;border: 1px solid #000;" width="200"></div>
+          </div>
+          <script type="text/javascript">
+            function ddp_start() {
+              document.getElementById('ddp_image').style.opacity = "1";
+            }
+
+            function ddp_stop() {
+              document.getElementById('ddp_image').style.opacity = "0";
+            }
+            ddp_stop();
+          </script>
+        </td>
+        <td style="padding:10px; width:70%; vertical-align:middle;">
+          <a href="https://www.adobe.com/products/firefly/features/ai-video-generator.html">
+            <papertitle>Firefly Video [Adobe]</papertitle>
+          </a>
           <br>
-          This feature was based on our <a href="https://controllable-cinemagraphs.github.io/">Controllable Animation of Fluid Elements in Still Images</a> (CVPR 2022) work.
-      </p>
-    </td>
-  </tr>
+          <a href="https://www.youtube.com/watch?v=puEgugluadk">video</a> |
+          <a href="https://www.adobe.com/products/firefly/features/ai-video-generator.html">website</a>
+          <p></p>
+          <p>
+            Adobe's Firefly Video Foundation model and can generate high fidelity videos from just text prompt.
+            I was a key contributor to the design of the video tokenizer and decoder architecture for Adobe's Firefly Video model.
+          </p>
+        </td>
+      </tr>
+      
+      <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
+        <!-- CHANGED: Reduced padding from 20px to 10px -->
+        <td style="padding-left:10px; width:30%; vertical-align:middle;">
+          <div class="one">
+            <!-- <div class="two" id='ddp_image'>
+              <img src='images/genextend.png' width="200" style="margin-top: 15px;border: 1px solid #000;" width="200"></div>
+            </div> -->
+            <img src='images/genextend.png' width="200" style="margin-top: 15px;border: 1px solid #000;" width="200"></div>
+          </div>
+          <script type="text/javascript">
+            function ddp_start() {
+              document.getElementById('ddp_image').style.opacity = "1";
+            }
+
+            function ddp_stop() {
+              document.getElementById('ddp_image').style.opacity = "0";
+            }
+            ddp_stop();
+          </script>
+        </td>
+        <td style="padding:10px; width:70%; vertical-align:middle;">
+          <a href="https://www.adobe.com/products/premiere/ai-video-editing.html">
+            <papertitle>Generative Extend [Adobe]</papertitle>
+          </a>
+          <br>
+          <a href="https://www.youtube.com/watch?v=3x-QahB3PdQ">video</a> |
+          <a href="https://www.adobe.com/products/premiere/ai-video-editing.html">website</a>
+          <p></p>
+          <p>
+            Adobe's Generative Extend model allows uses to extend a their videos by 2 seconds. This uses Adobe's Firefly video model as backbone.
+            I was a key contributor to the specialized decoder architecture and optimizations that enables fast and High-Resolution decoding.
+            <br>
+          </p>
+        </td>
+      </tr>
+
+
+      <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
+        <!-- CHANGED: Reduced padding from 20px to 10px -->
+        <td style="padding:10px; width:30%; vertical-align:middle;">
+          <div class="one">
+            <div class="two" id='ddp_image'>
+              <!-- CHANGED: Removed or reduced margin-top on video -->
+              <video autoplay loop muted playsinline width="200"
+                     style="border-radius:0px; border:1px solid #000; margin-top:15px;">
+                <source src="./images/moving_elements.mp4" type="video/mp4">
+              </video>
+            </div>
+            <video autoplay loop muted playsinline width="200"
+                   style="border-radius:0px; border:1px solid #000; margin-top:15px;">
+              <source src="./images/moving_elements.mp4" type="video/mp4">
+            </video>
+          </div>
+          <script type="text/javascript">
+            function ddp_start() {
+              document.getElementById('ddp_image').style.opacity = "1";
+            }
+
+            function ddp_stop() {
+              document.getElementById('ddp_image').style.opacity = "0";
+            }
+            ddp_stop();
+          </script>
+        </td>
+
+        <!-- CHANGED: Reduced padding from 20px to 10px -->
+        <td style="padding:10px; width:70%; vertical-align:middle;">
+          <a href="https://helpx.adobe.com/photoshop-elements/using/moving-elements.html">
+            <papertitle>Moving Elements [Adobe]</papertitle>
+          </a>
+          <br>
+          <a href="https://www.youtube.com/watch?v=W-9D_-ilS1Y">video</a> |
+          <a href="https://helpx.adobe.com/photoshop-elements/using/moving-elements.html">website</a>
+          <p></p>
+          <p>
+            Adobe's Photoshop Elements 2023 new feature "Moving Elements" lets users generate
+            aesthetic cinemagraphs from their photos.
+            <br>
+            This feature was based on our
+            <a href="https://controllable-cinemagraphs.github.io/">
+              Controllable Animation of Fluid Elements in Still Images
+            </a>
+            (CVPR 2022) work.
+          </p>
+        </td>
+      </tr>
 
     </tbody></table>
 
