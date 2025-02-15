@@ -8,9 +8,9 @@ import { NewsEntry } from "@/components/news-entry";
 import { newsData } from "@/data/news";
 import { ExperienceEntry } from "@/components/experience-entry";
 import { experienceData } from "@/data/experience";
-import { PortfolioEntry } from "@/components/portfolio-entry";
-import { portfolioData } from "@/data/portfolio";
 import { sectionOrder, Section } from "@/data/section-order";
+import { SoftwareEntry } from "@/components/software-entry";
+import { softwareData } from "@/data/software";
 
 export default function Home() {
   return (
@@ -113,16 +113,21 @@ export default function Home() {
                       </section>
                     )
                   );
-                case Section.Portfolio:
+                case Section.Software:
                   return (
-                    portfolioData.length > 0 && (
+                    softwareData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
-                          Portfolio
+                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                          Software
                         </h2>
                         <div className="space-y-12">
-                          {portfolioData.map((portfolio, index) => (
-                            <PortfolioEntry key={index} portfolio={portfolio} />
+                          {softwareData.map((software, index) => (
+                            <div key={index}>
+                              <SoftwareEntry software={software} />
+                              {index < softwareData.length - 1 && (
+                                <div className="h-px bg-zinc-200 my-8" />
+                              )}
+                            </div>
                           ))}
                         </div>
                       </section>

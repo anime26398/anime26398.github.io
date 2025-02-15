@@ -1,26 +1,28 @@
 export interface Education {
-  year: string;
+  startYear: string;
+  endYear: string;
   institution: string;
   degree: string;
   advisor?: string;
-  thesis?: string;
-  thesisUrl?: string;
+  imageUrl?: string;
 }
 
 export const educationData: Education[] = [
   // If you don't want to show education, just make the array empty.
   {
-    year: "2021—Present",
-    institution: "Stanford University",
-    degree: "Ph.D. in Computer Science",
-    advisor: "Prof. Sarah Johnson",
+    startYear: "2022",
+    endYear: "2023",
+    institution: "Carnegie Mellon University",
+    degree: "Master of Science in Computer Vision (MSCV)",
+    advisor: "Advisor: Prof. Jun-Yan Zhu",
+    imageUrl: "/images/cmu-logo-2.jpeg",
   },
   {
-    year: "2017—2021",
-    institution: "Massachusetts Institute of Technology",
-    degree: "B.S. in Computer Science and Mathematics",
-    thesis: "Algorithmic Approaches to Causal Discovery",
-    // Optional links to thesis
-    // thesisUrl: "https://dspace.mit.edu/handle/1721.1/149111"
+    startYear: "2016",
+    endYear: "2020",
+    institution: "Indian Institute of Technology, Roorkee (IITR)",
+    degree: "B. Tech in Computer Science and Engineering",
+    advisor: "Thesis Advisor: Prof. Balasubramanian Raman",
+    imageUrl: "/images/iitr.jpeg",
   },
 ];

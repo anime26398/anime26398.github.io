@@ -9,7 +9,20 @@ export function PublicationEntry({
 }) {
   return (
     <div className="flex flex-col sm:flex-row gap-6">
-      {publication.imageUrl && (
+      {publication.videoUrl ? (
+        <div className="w-full sm:w-1/4 min-w-[160px] relative">
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            className="w-full h-auto rounded-lg"
+          >
+            <source src={publication.videoUrl} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      ) : publication.imageUrl && (
         <div className="w-full sm:w-1/4 min-w-[160px] relative">
           <Image
             src={publication.imageUrl}
@@ -35,7 +48,10 @@ export function PublicationEntry({
           )}
         </div>
         <h3 className="font-serif text-md mb-3">{publication.title}</h3>
-        <p className="text-sm text-zinc-600 mb-4">{publication.authors}</p>
+        <p 
+          className="text-sm text-zinc-600 mb-4"
+          dangerouslySetInnerHTML={{ __html: publication.authors }}
+        />
         <div className="flex flex-row gap-6">
           {publication.paperUrl && (
             <a
@@ -47,6 +63,18 @@ export function PublicationEntry({
                 className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
               />
               <span className="tracking-wider uppercase">Paper</span>
+            </a>
+          )}
+          {publication.websiteUrl && (
+            <a
+              href={publication.websiteUrl}
+              className="group inline-flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
+            >
+              <ArrowUpRight
+                size={12}
+                className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
+              />
+              <span className="tracking-wider uppercase">Website</span>
             </a>
           )}
           {publication.codeUrl && (

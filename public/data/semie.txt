@@ -1,0 +1,7 @@
+@inproceedings{khurana2021semie,
+  title={Semie: Semantically-aware image extrapolation},
+  author={Khurana, Bholeshwar and Dash, Soumya Ranjan and Bhatia, Abhishek and Mahapatra, Aniruddha and Singh, Hrituraj and Kulkarni, Kuldeep},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={14900--14909},
+  year={2021}
+}

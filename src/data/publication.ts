@@ -8,32 +8,131 @@ export interface Publication {
   bibtex?: string;
   tldr?: string;
   imageUrl?: string;
+  videoUrl?: string;
   award?: string;
+  websiteUrl?: string;
 }
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
+    year: "2025",
+    conference: "arXiv",
+    title: "Progressive Growing of Video Tokenizers for Highly Compressed Latent Spaces",
+    authors: "<u>Aniruddha Mahapatra</u>, Long Mai, Yitian Zhang, David Bourgin, Feng Liu",
+    paperUrl: "https://arxiv.org/abs/2501.05442",
+    websiteUrl: "https://progressive-video-tokenizer.github.io/Pro-MAG/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to train video tokenizers with highly compressed latent spaces like 8 x and 16 x temporal compression.",
+    videoUrl: "/images/promag.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
     year: "2024",
-    conference: "NeurIPS",
-    title: "Scalable Causal Discovery in High-Dimensional Time Series",
-    authors: "Jane Smith, Sarah Johnson, Yue Zhang",
-    paperUrl: "https://arxiv.org/abs/2409.15476",
-    codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
-    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Using causal discovery to find the causal structure of high-dimensional time series data.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    award: "🏆 Best Paper Award",
+    conference: "ECCV",
+    title: "Co-speech Gesture Video Generation with 3D Human Meshess",
+    authors: "<u>Aniruddha Mahapatra</u>*, Richa Mishra*, Renda Li, Ziyi Chen, Boyang Ding, Shoulei Wang, Jun-Yan Zhu, Peng Chang, Mei Han, Jing Xiao",
+    paperUrl: "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/12483.pdf",
+    websiteUrl: "https://cospeech-gesture-3d.github.io/website/index.html",
+    // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    // bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    // tldr: "We introduce a co-speech video generation framework to synthesize human speech videos leveraging human mesh-based representations.",
+    videoUrl: "/images/co-speech-cropped.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2024",
+    conference: "CVPR",
+    title: "On the Content Bias in Fréchet Video Distance",
+    authors: "Songwei Ge, <u>Aniruddha Mahapatra</u>, Gaurav Parmar, Jun-Yan Zhu, Jia-Bin Huang",
+    paperUrl: "https://arxiv.org/pdf/2404.12391",
+    websiteUrl: "https://content-debiased-fvd.github.io/",
+    codeUrl: "https://github.com/songweige/content-debiased-fvd",
+    // tldr: "We develop code and provide pre-computed features for computing FVD with different feature extractors.",
+    videoUrl: "/images/content-debiased-fvd.mp4",
+    // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
   {
     year: "2023",
-    conference: "ICML",
-    title: "Robust Causal Discovery Under Distribution Shift",
-    authors: "Jane Smith, Xue Chen, Sarah Johnson",
-    paperUrl: "https://arxiv.org/abs/2302.13095",
-    codeUrl: "https://github.com/jsmith/robust-causal-discovery",
+    conference: "SIGGRAPH Asia (ACM Transactions on Graphics)",
+    title: "Text-Guided Synthesis of Eulerian Cinemagraphs",
+    authors: "<u>Aniruddha Mahapatra</u>, Aliaksandr Siarohin, Hsin-Ying Lee,Sergey Tulyakov, Jun-Yan Zhu",
+    paperUrl: "https://arxiv.org/abs/2307.03190",
+    websiteUrl: "https://text2cinemagraph.github.io/website/",
+    codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We introduce a fully automated method, Text2Cinemagraph, for creating cinemagraphs from text descriptions.",
+    videoUrl: "/images/video.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
   },
+  {
+    year: "2022",
+    conference: "CVPR",
+    title: "Controllable Animation of Fluid Elements in Still Images",
+    authors: "<u>Aniruddha Mahapatra</u>, Kuldeep Kulkarni",
+    paperUrl: "https://arxiv.org/abs/2112.03051",
+    websiteUrl: "https://controllable-cinemagraphs.github.io/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to interactively control the animation of fluid elements (like water, fire, clouds, etc.) to generate cinemagraphs from the single image.",
+    videoUrl: "/images/MovingElements.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2023",
+    conference: "WACV",
+    title: "GEMS: Scene Expansion using Generative Models of Graphs",
+    authors: "<u>Aniruddha Mahapatra*</u>, Rishi Agarwal*, Tirupati Saketh Chandra*, Vaidehi Patil*, Kuldeep Kulkarni, Vishwa Vinay",
+    paperUrl: "https://arxiv.org/abs/2207.03729",
+    // websiteUrl: "https://controllable-cinemagraphs.github.io/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to interactively control the animation of fluid elements (like water, fire, clouds, etc.) to generate cinemagraphs from the single image.",
+    imageUrl: "/images/gems-square.png",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2022",
+    conference: "EMNLP",
+    title: "Entity Extraction in Low Resource Domains with Selective Pre-training of Large Language Models",
+    authors: "<u>Aniruddha Mahapatra</u>, Snarmila Nangi, Aparna Garimella, Anandhavelu Natarajan",
+    paperUrl: "https://aclanthology.org/2022.emnlp-main.61.pdf",
+    // websiteUrl: "https://controllable-cinemagraphs.github.io/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to interactively control the animation of fluid elements (like water, fire, clouds, etc.) to generate cinemagraphs from the single image.",
+    imageUrl: "/images/emnlp-2022.png",
+    award: "⭐ Oral",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2019",
+    conference: "ICCV",
+    title: "SemIE: Semantically-aware Image Extrapolation",
+    authors: "Bholeshwar Khurana, Soumya Ranjan Dash, Abhishek Bhatia, <u>Aniruddha Mahapatra</u>, Hrituraj Singh, Kuldeep Kulkarni",
+    paperUrl: "https://arxiv.org/abs/2108.13702",
+    websiteUrl: "https://semie-iccv.github.io/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to interactively control the animation of fluid elements (like water, fire, clouds, etc.) to generate cinemagraphs from the single image.",
+    imageUrl: "/images/semie2.png",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  // {
+  //   year: "2023",
+  //   conference: "ICML",
+  //   title: "Robust Causal Discovery Under Distribution Shift",
+  //   authors: "Jane Smith, Xue Chen, Sarah Johnson",
+  //   paperUrl: "https://arxiv.org/abs/2302.13095",
+  //   codeUrl: "https://github.com/jsmith/robust-causal-discovery",
+  // },
 ];
