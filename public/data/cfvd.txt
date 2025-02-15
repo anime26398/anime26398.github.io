@@ -1,0 +1,6 @@
+@inproceedings{ge2024content,
+      title={On the Content Bias in Fréchet Video Distance},
+      author={Ge, Songwei and Mahapatra, Aniruddha and Parmar, Gaurav and Zhu, Jun-Yan and Huang, Jia-Bin},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year={2024}
+}

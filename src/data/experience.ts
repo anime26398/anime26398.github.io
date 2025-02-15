@@ -1,30 +1,48 @@
 export interface Experience {
-  date: string;
-  title: string;
+  startYear: string;
+  endYear: string;
   company: string;
+  title: string;
   description?: string;
-  advisor?: string;
   manager?: string;
-  companyUrl?: string;
+  imageUrl?: string;
 }
 
 export const experienceData: Experience[] = [
   {
-    date: "Summer 2023",
-    title: "Research Intern",
-    company: "DeepMind",
-    description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+    startYear: "2024",
+    endYear: "Present",
+    company: "Adobe Research",
+    title: "Research Engineer",
+    description: "Developing high quality video generative models. Currenlty working on efficient and compact latent space for video generation and adding more controllable features to the model.",
+    manager: "Feng Liu",
+    imageUrl: "/images/Adobe-icon.png",
   },
   {
-    date: "Summer 2022",
-    title: "Research Intern",
-    company: "Google Research",
-    description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",
+    startYear: "Summer",
+    endYear: "2023",
+    company: "Snap Research",
+    title: "Research Scientist Intern",
+    description: "Worked on trajectory controlled video generation.",
+    manager: "Aliaksandr Siarohin",
+    imageUrl: "/images/snap_logo.png",
   },
+  {
+    startYear: "2020",
+    endYear: "2022",
+    company: "Adobe Research",
+    title: "Research Associate",
+    description: "Worked on controllable cinemagraph generation and named entity extraction.",
+    manager: "Balaji Srinivasan",
+    imageUrl: "/images/Adobe-icon.png",
+  },
+  {
+    startYear: "Summer",
+    endYear: "2019",
+    company: "Adobe Research",
+    title: "Research Intern",
+    description: "Worked on action recognition and action localization in videos on edge devices.",
+    manager: "Subrata Mitra",
+    imageUrl: "/images/Adobe-icon.png",
+  }
 ];
