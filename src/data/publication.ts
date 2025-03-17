@@ -18,6 +18,20 @@ export const publicationData: Publication[] = [
   {
     year: "2025",
     conference: "arXiv",
+    title: "REGEN: Learning Compact Video Embedding with (Re-)Generative Decoder",
+    authors: "Yitian Zhang, Long Mai, <u>Aniruddha Mahapatra</u>, David Bourgin, Yicong Hong, Jonah Casebeer, Feng Liu, Yun Fu",
+    paperUrl: "https://arxiv.org/abs/2503.08665",
+    websiteUrl: "https://bespontaneous.github.io/REGEN/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to train video tokenizers with highly compressed latent spaces like 8 x and 16 x temporal compression.",
+    videoUrl: "/images/REGEN.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2025",
+    conference: "arXiv",
     title: "Progressive Growing of Video Tokenizers for Highly Compressed Latent Spaces",
     authors: "<u>Aniruddha Mahapatra</u>, Long Mai, Yitian Zhang, David Bourgin, Feng Liu",
     paperUrl: "https://arxiv.org/abs/2501.05442",
