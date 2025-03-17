@@ -1,7 +1,0 @@
-@inproceedings{mahapatra2022controllable,
-  title={Controllable Animation of Fluid Elements in Still Images},
-  author={Mahapatra, Aniruddha and Kulkarni, Kuldeep},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={3667--3676},
-  year={2022}
-}

@@ -1,6 +1,0 @@
-@article{agarwal2022gems,
-  title={GEMS: Scene Expansion using Generative Models of Graphs},
-  author={Agarwal, Rishi and Chandra, Tirupati Saketh and Patil, Vaidehi and Mahapatra, Aniruddha and Kulkarni, Kuldeep and Vinay, Vishwa},
-  journal={arXiv preprint arXiv:2207.03729},
-  year={2022}
-}

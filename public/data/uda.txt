@@ -1,8 +1,0 @@
-@inproceedings{mahapatra2019unsupervised,
-  title={Unsupervised Domain Adaptation for Remote Sensing Images Using Metric Learning and Correlation Alignment},
-  author={Mahapatra, Aniruddha and Banerjee, Biplab},
-  booktitle={National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics},
-  pages={133--142},
-  year={2019},
-  organization={Springer}
-}
