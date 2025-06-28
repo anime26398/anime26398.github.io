@@ -17,7 +17,21 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
-    conference: "arXiv",
+    conference: "ICCV",
+    title: "Progressive Growing of Video Tokenizers for Highly Compressed Latent Spaces",
+    authors: "<u>Aniruddha Mahapatra</u>, Long Mai, Yitian Zhang, David Bourgin, Feng Liu",
+    paperUrl: "https://arxiv.org/abs/2501.05442",
+    websiteUrl: "https://progressive-video-tokenizer.github.io/Pro-MAG/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to train video tokenizers with highly compressed latent spaces like 8 x and 16 x temporal compression.",
+    videoUrl: "/images/promag.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2025",
+    conference: "ICCV",
     title: "REGEN: Learning Compact Video Embedding with (Re-)Generative Decoder",
     authors: "Yitian Zhang, Long Mai, <u>Aniruddha Mahapatra</u>, David Bourgin, Yicong Hong, Jonah Casebeer, Feng Liu, Yun Fu",
     paperUrl: "https://arxiv.org/abs/2503.08665",
@@ -31,14 +45,14 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2025",
-    conference: "arXiv",
-    title: "Progressive Growing of Video Tokenizers for Highly Compressed Latent Spaces",
-    authors: "<u>Aniruddha Mahapatra</u>, Long Mai, Yitian Zhang, David Bourgin, Feng Liu",
-    paperUrl: "https://arxiv.org/abs/2501.05442",
-    websiteUrl: "https://progressive-video-tokenizer.github.io/Pro-MAG/",
+    conference: "SIGGRAPH",
+    title: "MotionCanvas: Cinematic Shot Design with Controllable Image-to-Video Generation",
+    authors: "Jinbo Xing, Long Mai, Cusuh Ham, Jiahui Huang, <u>Aniruddha Mahapatra</u>, Chi-Wing Fu, Tien-Tsin Wong, Feng Liu",
+    paperUrl: "https://arxiv.org/abs/2502.04299",
+    websiteUrl: "https://motion-canvas25.github.io/",
     // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
     // tldr: "We propose a method to train video tokenizers with highly compressed latent spaces like 8 x and 16 x temporal compression.",
-    videoUrl: "/images/promag.mp4",
+    videoUrl: "/images/shot_2_modified.mp4",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
