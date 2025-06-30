@@ -13,7 +13,7 @@ export const experienceData: Experience[] = [
     startYear: "2024",
     endYear: "Present",
     company: "Adobe Research",
-    title: "Research Engineer",
+    title: "Research Scientist / Engineer",
     description: "Developing high quality video generative models. Currenlty working on efficient and compact latent space for video generation and adding more controllable features to the model.",
     manager: "Feng Liu",
     imageUrl: "/images/Adobe-icon.png",
