@@ -32,8 +32,8 @@ export const publicationData: Publication[] = [
   {
     year: "2025",
     conference: "ICCV",
-    title: "Progressive Growing of Video Tokenizers for Highly Compressed Latent Spaces",
-    authors: "<u>Aniruddha Mahapatra</u>, Long Mai, Yitian Zhang, David Bourgin, Feng Liu",
+    title: "Progressive Growing of Video Tokenizers for Temporally Compact Latent Spaces",
+    authors: "<u>Aniruddha Mahapatra</u>, Long Mai, David Bourgin, Yitian Zhang, Feng Liu",
     paperUrl: "https://arxiv.org/abs/2501.05442",
     websiteUrl: "https://progressive-video-tokenizer.github.io/Pro-MAG/",
     // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
