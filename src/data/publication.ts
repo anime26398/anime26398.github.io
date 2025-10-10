@@ -17,6 +17,20 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
+    conference: "arXiv",
+    title: "DynamicEval: Rethinking Evaluation for Dynamic Text-to-Video Synthesis",
+    authors: "Nithin C. Babu, <u>Aniruddha Mahapatra</u>, Harsh Rangwani, Rajiv Soundararajan, Kuldeep Kulkarni",
+    paperUrl: "https://arxiv.org/abs/2510.07441",
+    websiteUrl: "https://nithincbabu7.github.io/DynamicEval/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to train video tokenizers with highly compressed latent spaces like 8 x and 16 x temporal compression.",
+    videoUrl: "/images/dynamiceval-crop.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2025",
     conference: "ICCV",
     title: "Progressive Growing of Video Tokenizers for Highly Compressed Latent Spaces",
     authors: "<u>Aniruddha Mahapatra</u>, Long Mai, Yitian Zhang, David Bourgin, Feng Liu",
