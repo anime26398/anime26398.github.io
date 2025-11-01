@@ -25,3 +25,28 @@ body {
 .sans {
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
+
+.siren-gif {
+  width: 2.6rem;
+  height: 2.6rem;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 0.3rem;
+}
+
+.siren-gif:first-child {
+  margin-left: 0;
+}
+
+.siren-gif-end {
+  margin-left: 0.2rem;
+}
+
+.internship-title {
+  color: #8b0000;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+  display: inline-block;
+}
