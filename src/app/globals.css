@@ -50,3 +50,15 @@ body {
   vertical-align: middle;
   display: inline-block;
 }
+
+.google-scholar-link {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.google-scholar-icon {
+  height: 1.35rem;
+  width: auto;
+  display: block;
+}

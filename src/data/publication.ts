@@ -128,20 +128,20 @@ export const publicationData: Publication[] = [
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
-  {
-    year: "2023",
-    conference: "WACV",
-    title: "GEMS: Scene Expansion using Generative Models of Graphs",
-    authors: "<u>Aniruddha Mahapatra*</u>, Rishi Agarwal*, Tirupati Saketh Chandra*, Vaidehi Patil*, Kuldeep Kulkarni, Vishwa Vinay",
-    paperUrl: "https://arxiv.org/abs/2207.03729",
-    // websiteUrl: "https://controllable-cinemagraphs.github.io/",
-    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
-    // tldr: "We propose a method to interactively control the animation of fluid elements (like water, fire, clouds, etc.) to generate cinemagraphs from the single image.",
-    imageUrl: "/images/gems-square.png",
-    // award: "🏆 Best Paper Award",
-    // if you have an image in public/images, you can use it like this:
-    // imageUrl: "/images/publication-image.jpg"
-  },
+  // {
+  //   year: "2023",
+  //   conference: "WACV",
+  //   title: "GEMS: Scene Expansion using Generative Models of Graphs",
+  //   authors: "<u>Aniruddha Mahapatra*</u>, Rishi Agarwal*, Tirupati Saketh Chandra*, Vaidehi Patil*, Kuldeep Kulkarni, Vishwa Vinay",
+  //   paperUrl: "https://arxiv.org/abs/2207.03729",
+  //   // websiteUrl: "https://controllable-cinemagraphs.github.io/",
+  //   // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+  //   // tldr: "We propose a method to interactively control the animation of fluid elements (like water, fire, clouds, etc.) to generate cinemagraphs from the single image.",
+  //   imageUrl: "/images/gems-square.png",
+  //   // award: "🏆 Best Paper Award",
+  //   // if you have an image in public/images, you can use it like this:
+  //   // imageUrl: "/images/publication-image.jpg"
+  // },
   {
     year: "2022",
     conference: "EMNLP",

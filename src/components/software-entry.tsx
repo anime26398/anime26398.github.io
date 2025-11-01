@@ -7,10 +7,10 @@ export function SoftwareEntry({ software }: { software: Software }) {
     <div className="flex flex-col sm:flex-row gap-6">
       {software.videoUrl ? (
         <div className="w-full sm:w-1/4 min-w-[160px] relative">
-          <video 
-            autoPlay 
-            loop 
-            muted 
+          <video
+            autoPlay
+            loop
+            muted
             playsInline
             className="w-full h-auto rounded-lg"
           >
@@ -18,21 +18,23 @@ export function SoftwareEntry({ software }: { software: Software }) {
             Your browser does not support the video tag.
           </video>
         </div>
-      ) : software.imageUrl && (
-        <div className="w-full sm:w-1/4 min-w-[160px] relative">
-          <Image
-            src={software.imageUrl}
-            alt={software.title}
-            width={160}
-            height={200}
-            className="rounded-lg transition-all duration-300"
-          />
-        </div>
+      ) : (
+        software.imageUrl && (
+          <div className="w-full sm:w-1/4 min-w-[160px] relative">
+            <Image
+              src={software.imageUrl}
+              alt={software.title}
+              width={160}
+              height={200}
+              className="rounded-lg transition-all duration-300"
+            />
+          </div>
+        )
       )}
       <div className="flex flex-col flex-1">
         <h3 className="font-serif text-md mb-3">{software.title}</h3>
         <p className="text-sm text-zinc-600 mb-4">{software.description}</p>
-        <div className="flex flex-row gap-6">
+        <div className="flex flex-wrap items-center gap-4">
           {software.githubUrl && (
             <a
               href={software.githubUrl}
@@ -69,6 +71,20 @@ export function SoftwareEntry({ software }: { software: Software }) {
               <span className="tracking-wider uppercase">Demo</span>
             </a>
           )}
+          {software.icons?.length ? (
+            <div className="flex items-center gap-2">
+              {software.icons.map((icon, index) => (
+                <Image
+                  key={`${software.title}-${index}`}
+                  src={icon.src}
+                  alt={icon.alt ?? `${software.title} icon ${index + 1}`}
+                  width={icon.width ?? 40}
+                  height={icon.height ?? 40}
+                  className="w-10 h-10 object-contain drop-shadow-sm"
+                />
+              ))}
+            </div>
+          ) : null}
         </div>
         {software.tldr && (
           <p className="text-sm italic text-zinc-600 mt-4">
