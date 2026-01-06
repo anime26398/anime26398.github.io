@@ -24,7 +24,7 @@ export const aboutMe: AboutMe = {
   // Note that links work in the description
   description: [
     "I am a Research Scientist/Engineer at <a href='https://research.adobe.com/'>Adobe Research</a>. I completed my <a href='https://ri.cmu.edu/education/academic-programs/master-of-science-computer-vision'>Masters in Computer Vision</a> (MSCV) from <a href='https://www.cs.cmu.edu/'>Carnegie Mellon University</a>, where I was advised by Prof. <a href='https://www.cs.cmu.edu/~junyanz/'>Jun-Yan Zhu</a>. My research interest include image and video synthesis and editing using generative models. Lately, I have been mostly interested in representation learning for generation.<br><br>",
-    "<img src='/images/amoungus-dance.gif' alt='Animated siren emoji' class='siren-gif' /><span class='internship-title font-serif'>Research Internships at Adobe</span><img src='/images/amoungus-dance.gif' alt='Animated siren emoji' class='siren-gif siren-gif-end' /><br>If you are interested in a research internship at Adobe Research, feel free to send me an email with your CV and research interests.<br>",
+    // "<img src='/images/amoungus-dance.gif' alt='Animated siren emoji' class='siren-gif' /><span class='internship-title font-serif'>Research Internships at Adobe</span><img src='/images/amoungus-dance.gif' alt='Animated siren emoji' class='siren-gif siren-gif-end' /><br>If you are interested in a research internship at Adobe Research, feel free to send me an email with your CV and research interests.<br>",
   ].join(""),
   email: "anmahapa@adobe.com",
   imageUrl:
