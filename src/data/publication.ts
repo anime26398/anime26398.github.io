@@ -16,6 +16,20 @@ export interface Publication {
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
+    year: "2026",
+    conference: "arXiv",
+    title: "DreamLoop: Controllable Cinemagraph Generation from a Single Photograph",
+    authors: "<u>Aniruddha Mahapatra</u>, Long Mai, Cusuh Ham, Feng Liu",
+    paperUrl: "https://arxiv.org/abs/2601.02646",
+    websiteUrl: "https://anime26398.github.io/dreamloop.github.io/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to train video tokenizers with highly compressed latent spaces like 8 x and 16 x temporal compression.",
+    videoUrl: "/images/dreamloop-1.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
     year: "2025",
     conference: "arXiv",
     title: "DynamicEval: Rethinking Evaluation for Dynamic Text-to-Video Synthesis",
