@@ -18,6 +18,48 @@ export const publicationData: Publication[] = [
   {
     year: "2026",
     conference: "arXiv",
+    title: "TRACE: Object Motion Editing in Videos with First-Frame Trajectory Guidance",
+    authors: "Quynh Phung*, Long Mai, Cusuh Ham, Feng Liu, Jia-Bin Huang, <u>Aniruddha Mahapatra</u>",
+    paperUrl: "https://arxiv.org/abs/2603.25707",
+    websiteUrl: "https://trace-motion.github.io/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to train video tokenizers with highly compressed latent spaces like 8 x and 16 x temporal compression.",
+    videoUrl: "/images/trace-motion-teaser.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2026",
+    conference: "arXiv",
+    title: "TokenDial: Continuous Attribute Control in Text-to-Video via Spatiotemporal Token Offsets",
+    authors: "Zhixuan Liu, Peter Schaldenbrand, Yijun Li, Long Mai, <u>Aniruddha Mahapatra</u>, Cusuh Ham, Jean Oh, Jui-Hsien Wang",
+    paperUrl: "https://arxiv.org/abs/2603.27520",
+    websiteUrl: "https://tokendial.github.io/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to train video tokenizers with highly compressed latent spaces like 8 x and 16 x temporal compression.",
+    imageUrl: "/images/tokendial_teaser.gif",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2026",
+    conference: "arXiv",
+    title: "V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation",
+    authors: "Yan-Bo Lin*, Jonah Casebeer, Long Mai, <u>Aniruddha Mahapatra</u>, Gedas Bertasius, Nicholas J. Bryan",
+    paperUrl: "https://arxiv.org/abs/2603.11042",
+    websiteUrl: "https://genjib.github.io/project_page/v2m_zero/",
+    // codeUrl: "https://github.com/text2cinemagraph/text2cinemagraph",
+    // tldr: "We propose a method to train video tokenizers with highly compressed latent spaces like 8 x and 16 x temporal compression.",
+    videoUrl: "/images/v2m-zero-teaser-mute.mp4",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2026",
+    conference: "arXiv",
     title: "DreamLoop: Controllable Cinemagraph Generation from a Single Photograph",
     authors: "<u>Aniruddha Mahapatra</u>, Long Mai, Cusuh Ham, Feng Liu",
     paperUrl: "https://arxiv.org/abs/2601.02646",
